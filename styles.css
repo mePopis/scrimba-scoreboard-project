@@ -1,0 +1,82 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "cursed-timer", sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    min-width: 300px;
+    background-color: rgb(19, 35, 70);
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    outline: auto;
+    outline-offset: 10px;
+    margin: 20px;
+    padding: 20px
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10;
+}
+
+h3 {
+    display: inline-flex;
+    margin: 0;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+h2 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: rgb(249, 24, 13);
+    border-radius: 1px;
+    border: 3px solid rgb(249, 24, 13);
+    outline: auto;
+    outline-offset: 15px;
+    outline-color: rgb(249, 24, 13);
+    padding: 5px;
+    text-align: center; 
+    height: auto;
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+button  {
+    background-color: rgb(19, 35, 70);
+    border: 1px solid wheat;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    color: lightblue;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+}
+
+p {
+
+}
